@@ -38,6 +38,20 @@ strong { font-weight: 700; }
 .btn--light:hover { background: transparent; color: var(--crema); }
 .btn--large { font-size: 1rem; padding: 1rem 2.25rem; }
 
+
+.pj__link {
+  display: inline-block;
+  margin-top: 1.2rem;
+  padding: 0.7rem 1.3rem;
+  border: 1.5px solid var(--rosa);
+  border-radius: 999px;
+  color: var(--crema);
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  width: fit-content;
+}
+
 /* === NAV === */
 .nav {
   position: fixed; top: 0; left: 0; right: 0; z-index: 100;
