@@ -411,7 +411,35 @@ strong { font-weight: 700; }
   .nav__links { display: none; }
   .hero__title { font-size: clamp(3rem, 14vw, 5.5rem); }
   .htag { display: none; }
+  .slide {
+  position: relative;
+  overflow: hidden;
+}
 
+.slide__deco {
+  display: flex;
+  position: absolute;
+  inset: 0;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  opacity: 0.18;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.slide__image {
+  width: 85%;
+  height: auto;
+  max-width: none;
+  max-height: none;
+  object-fit: contain;
+}
+
+.slide__content {
+  position: relative;
+  z-index: 2;
+}
   .about__grid {
     grid-template-columns: 1fr;
   }
